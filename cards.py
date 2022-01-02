@@ -26,7 +26,7 @@ import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 # In[2]:
 
 
-df = pd.read_csv('C:\\Users\\koti\\Transcation_data\\cards_data.csv')
+df = pd.read_csv('cards_data.csv')
 print(df.shape)
 #from pandas_profiling import ProfileReport
 #ProfileReport(df)
@@ -107,7 +107,7 @@ print('Test data f1 score',classification_report(y_eval,predict))
 # In[9]:
 
 
-df_test = pd.read_csv('C:\\Users\\koti\\Transcation_data\\cards_data_test.csv')
+df_test = pd.read_csv('cards_data_test.csv')
 print(df_test.shape)
 
 
