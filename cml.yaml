@@ -1,4 +1,4 @@
-name: your-workflow-name
+name: wf_transcation_cards
 on: [push]
 jobs:
   run:
